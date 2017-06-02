@@ -16,6 +16,7 @@ var evenDoubler = function(v, callback) {
     }
 }
 
+//only exported would be available outside
 module.exports.evenDoubler = evenDoubler;
 
 module.exports.foo = "bar";
